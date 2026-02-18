@@ -36,12 +36,12 @@ body {
 }
 
 .hero img {
-  width: 80px;             /* small size */
+  width: 80px;
   height: 80px;
-  border-radius: 50%;      /* round */
-  object-fit: cover;       /* fill circle nicely */
-  margin-bottom: 10px;     /* space below image */
-  border: 2px solid white; /* optional border */
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 2px solid white;
 }
 
 /* dark overlay for premium look */
@@ -85,7 +85,7 @@ body {
 
 .container {
   max-width: 550px;
-  margin: -50px auto 40px auto;
+  margin: 20px auto 40px auto; /* changed from -50px to 20px to avoid overlap */
   padding: 20px;
   background: var(--card);
   border-radius: 20px;
@@ -124,6 +124,16 @@ body {
   color: var(--primary);
 }
 
+/* PHONE NUMBER FOOTER */
+
+.footer {
+  text-align: center;
+  margin: 20px 0 40px 0;
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--primary);
+}
+
 /* MOBILE */
 
 @media(max-width:500px){
@@ -140,7 +150,7 @@ body {
 <!-- HERO IMAGE -->
 <div class="hero">
   <div class="hero-text">
-    <img src="ملحمةوفرن.png">
+    <img src="https://i.postimg.cc/xyz123/your-image.png" alt="Bakery Logo">
     <h1>Abo Omar Bakery</h1>
     <p>Fresh Lebanese Manakeesh</p>
   </div>
@@ -190,6 +200,10 @@ body {
 
 </div>
 
+<!-- PHONE NUMBER FOOTER -->
+<div class="footer">
+📞 Call us: +961 70 123 456
+</div>
+
 </body>
 </html>
-
